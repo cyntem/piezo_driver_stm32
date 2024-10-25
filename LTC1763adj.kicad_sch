@@ -1,0 +1,2390 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "13cd1b30-6da4-4963-9135-5fd08408749c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:LT1763CS8"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC661"
+				(at 19.05 6.731 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT1763CS8"
+				(at 19.05 4.4196 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lib_mods:LT1763CS8_PBF_SOIC127P599X175-8N"
+				(at 34.29 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf"
+				(at 34.29 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mA, Low Noise, LDO Micropower Regulator, SO-8"
+				(at 34.29 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.752"
+				(at 34.29 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 36.195 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LT1763CS8-1.8#PBF"
+				(at 34.29 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "LT1763CS8_0_0"
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SENSE/ADJ~{}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "BYP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -7.62 180)
+					(length 5.08)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -5.08 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT1763CS8_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 33.02 2.54) (xy 33.02 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 80.645 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa1c9d7-6659-4689-90b6-2b64aad1c9d2")
+	)
+	(junction
+		(at 73.025 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87286737-10a4-421f-8bee-2b5207240cdf")
+	)
+	(junction
+		(at 127 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae6aa4fd-de19-4521-8377-1280b62d121c")
+	)
+	(junction
+		(at 120.015 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e10de2fe-15df-4317-8065-ada691fec709")
+	)
+	(junction
+		(at 75.565 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e43a42a9-a32b-4ccc-b1a8-7a220bb371ff")
+	)
+	(junction
+		(at 79.375 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7b82815-6588-430e-92d0-7e6003618055")
+	)
+	(wire
+		(pts
+			(xy 88.265 45.085) (xy 80.645 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d3f209-8c85-4119-997b-c0aa37c35f41")
+	)
+	(wire
+		(pts
+			(xy 127 60.325) (xy 147.32 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0954c4c3-5045-4d8c-94ab-5d39566b9f70")
+	)
+	(wire
+		(pts
+			(xy 62.865 57.785) (xy 62.865 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc231d9-72a8-4352-9849-a0654da21ba5")
+	)
+	(wire
+		(pts
+			(xy 73.025 62.865) (xy 73.025 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c8873a-0460-4327-85b8-15422994c5ad")
+	)
+	(wire
+		(pts
+			(xy 80.645 40.005) (xy 73.025 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1509ac2d-8ce4-4cfa-87ca-e92320accabb")
+	)
+	(wire
+		(pts
+			(xy 79.375 83.185) (xy 58.42 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189e79fb-1c8b-4d12-aa2c-3d20b14a090e")
+	)
+	(wire
+		(pts
+			(xy 127 42.545) (xy 127 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a55eef9-b2e5-4d07-8a61-3006a9c2fd26")
+	)
+	(wire
+		(pts
+			(xy 79.375 67.945) (xy 79.375 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d35f643-5af6-4321-b344-a886078e23a7")
+	)
+	(wire
+		(pts
+			(xy 127 52.705) (xy 127 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fc940e-d332-42f0-8817-85016822f818")
+	)
+	(wire
+		(pts
+			(xy 57.785 71.755) (xy 57.785 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c37675-ef9f-4346-981d-bbc420aa4aee")
+	)
+	(wire
+		(pts
+			(xy 36.83 34.29) (xy 36.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314a1bd4-40c6-41a8-8f70-62461c2a9660")
+	)
+	(wire
+		(pts
+			(xy 67.945 71.12) (xy 67.945 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a39ca96-4953-410f-a342-ab504241fc85")
+	)
+	(wire
+		(pts
+			(xy 122.555 62.865) (xy 117.475 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bc193c-ca89-408c-92e9-62bf1dd30f2e")
+	)
+	(wire
+		(pts
+			(xy 58.42 75.565) (xy 57.785 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4427df9f-8d98-4820-bb38-7dc1d177d5f1")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.325) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47be0e20-4ddd-47b5-8bec-996ad2856802")
+	)
+	(wire
+		(pts
+			(xy 57.785 61.595) (xy 57.785 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f61f4f3-6aa5-4b4d-be1d-e790584d41b2")
+	)
+	(wire
+		(pts
+			(xy 79.375 55.245) (xy 80.645 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f116a5-398b-4171-8b34-b0fce4873817")
+	)
+	(wire
+		(pts
+			(xy 79.375 62.865) (xy 73.025 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580b6125-7488-4026-9a81-71a4e5bcc0e3")
+	)
+	(wire
+		(pts
+			(xy 62.865 57.785) (xy 79.375 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2a0b58-4d38-4899-8246-f9be5ddb1878")
+	)
+	(wire
+		(pts
+			(xy 67.945 60.96) (xy 67.945 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e88d4b2-9175-4b8a-8ce6-fee05e70a6b1")
+	)
+	(wire
+		(pts
+			(xy 120.015 45.085) (xy 120.015 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f05f439-99bf-43bf-b7c1-21d4bf8bd87c")
+	)
+	(wire
+		(pts
+			(xy 117.475 67.945) (xy 131.445 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fac9b1d-0d4d-4cb7-8565-84e2d547eb63")
+	)
+	(wire
+		(pts
+			(xy 73.025 60.96) (xy 73.025 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7414ceea-f434-40ac-95ef-b28b8fadff2f")
+	)
+	(wire
+		(pts
+			(xy 62.865 61.595) (xy 57.785 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773077f1-5ba6-4d16-9b2c-8064199fe340")
+	)
+	(wire
+		(pts
+			(xy 67.945 60.96) (xy 73.025 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe0c099-6a3b-4f0d-90a6-cdca88c3d744")
+	)
+	(wire
+		(pts
+			(xy 122.555 62.865) (xy 122.555 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d995ca-a822-4892-bff3-c448ee887d3e")
+	)
+	(wire
+		(pts
+			(xy 120.015 60.325) (xy 127 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dbdcfd-6fd1-49c4-9669-1c94e6f777ee")
+	)
+	(wire
+		(pts
+			(xy 67.945 71.755) (xy 75.565 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9d6ce3-1763-4d71-aef3-d1b3cfe96606")
+	)
+	(wire
+		(pts
+			(xy 23.495 33.655) (xy 23.495 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbd1aef-53e5-4c61-bb78-f2ef55275e50")
+	)
+	(wire
+		(pts
+			(xy 117.475 65.405) (xy 122.555 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9673d7cf-4c53-46b5-9a7b-213713204f75")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.185) (xy 58.42 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b01354c-be2d-4ec3-a48e-2760145b3676")
+	)
+	(wire
+		(pts
+			(xy 117.475 60.325) (xy 120.015 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38f0547-ec3e-47b1-9de5-f1ce4ae3900e")
+	)
+	(wire
+		(pts
+			(xy 75.565 65.405) (xy 79.375 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c1eb21-fd25-4603-a031-ca26a7c91bd7")
+	)
+	(wire
+		(pts
+			(xy 80.645 40.005) (xy 80.645 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9737843-ea84-414e-b7ad-19681def0db3")
+	)
+	(wire
+		(pts
+			(xy 75.565 71.755) (xy 75.565 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17ba0aa-a239-4518-b701-634cb18ecd6e")
+	)
+	(wire
+		(pts
+			(xy 120.015 60.325) (xy 120.015 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d267663d-9b9b-4bf9-8017-07905c0785ec")
+	)
+	(wire
+		(pts
+			(xy 23.495 46.355) (xy 23.495 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63b5c76-a8e8-4ff4-8cfe-d3f696f9e893")
+	)
+	(wire
+		(pts
+			(xy 52.705 46.99) (xy 52.705 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68426fe-0e60-4f3c-b69a-58f51622af5a")
+	)
+	(wire
+		(pts
+			(xy 75.565 74.93) (xy 75.565 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d007f0-03ee-4c62-980f-425d72ea52e8")
+	)
+	(wire
+		(pts
+			(xy 79.375 57.785) (xy 79.375 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37ba03f-85c6-4c84-a2e1-550633f41481")
+	)
+	(wire
+		(pts
+			(xy 80.645 45.085) (xy 80.645 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e420d046-b35d-41d6-bfd8-aa2742185ded")
+	)
+	(wire
+		(pts
+			(xy 79.375 60.325) (xy 79.375 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee2d236-efc2-4485-9ead-caf5ced6d388")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 36.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78d3925-6204-4cd6-b6c6-b466a7fffed7")
+	)
+	(wire
+		(pts
+			(xy 52.705 34.29) (xy 52.705 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9138fb1-4e9b-4c0a-a6f1-bc9a6cdec635")
+	)
+	(hierarchical_label "VOLTAGE_IN"
+		(shape input)
+		(at 147.32 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14385af5-1575-4286-be6b-9bbfcafbef25")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 36.83 49.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "148298f3-8849-4381-a47a-468058a4a312")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 75.565 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "258d2649-2ddb-4857-b06d-a539249a0925")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 23.495 55.245 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c7a7de4-764e-4f1d-b6de-8ca9aaea1b6e")
+	)
+	(hierarchical_label "VOUT_LT"
+		(shape input)
+		(at 23.495 33.655 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f0df9f2-c3cd-4d23-80d5-80afd8d4b2d9")
+	)
+	(hierarchical_label "VOUT_LT"
+		(shape input)
+		(at 52.705 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62ecbf6d-c8ca-4438-9d71-3a9826b9b44d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 120.015 42.545 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64c3194a-b6ce-4e98-9b12-f6091a658216")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 127 42.545 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cc05022-050c-44fe-9b4b-09c9268d33a3")
+	)
+	(hierarchical_label "VOUT_LT"
+		(shape input)
+		(at 36.83 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7185e929-6256-40ce-9df4-0bd3f2447244")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 131.445 67.945 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7afe7f1d-ac73-4276-890a-75adb8337a6c")
+	)
+	(hierarchical_label "VOUT_LT"
+		(shape input)
+		(at 75.565 40.005 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b7974f2-790b-49ec-8085-3ffeb83ed5bd")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 122.555 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ceae8ed4-712a-4d77-911e-b24ad3c8df41")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 52.705 49.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da31749a-0a9d-452e-88f6-d5aa8882dbf0")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.785 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21f41001-b749-4f49-afc7-9b8166cf7c51")
+		(property "Reference" "C112"
+			(at 60.706 66.7766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n 50V X7R"
+			(at 50.165 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:C_0603_1608Metric_u"
+			(at 58.7502 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.785 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.785 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" "CA0136913"
+			(at 57.785 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
+			(at 57.785 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57112"
+			(at 57.785 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3684a69f-f562-4981-9ca3-477ccc711701")
+		)
+		(pin "2"
+			(uuid "019bf6f7-2b23-48cb-aed0-43ab43841130")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "C112")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "C125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.705 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cc4b0b4-ab11-4116-aff3-5862f184ef88")
+		(property "Reference" "R57"
+			(at 55.88 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k, 1%"
+			(at 50.165 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:R_0603_1608Metric_u"
+			(at 50.927 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.705 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.705 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" ""
+			(at 52.705 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
+			(at 52.705 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4184"
+			(at 52.705 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2d2b18b-3f51-40fe-be7a-9c7607911413")
+		)
+		(pin "2"
+			(uuid "69262a71-1ea3-46c9-9171-a610f445d7fc")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.945 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38472684-30e5-4e51-af39-eb2589119f28")
+		(property "Reference" "R58"
+			(at 69.723 66.1416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R2}"
+			(at 69.723 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:R_0603_1608Metric_u"
+			(at 66.167 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.945 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.945 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" ""
+			(at 67.945 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
+			(at 67.945 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "${R2LCSC}"
+			(at 67.945 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa65637-2bd5-4690-ae53-bf09961397c5")
+		)
+		(pin "2"
+			(uuid "1de01c0a-82ba-410b-89af-1f48823a8ee9")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.015 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "492f6829-1efa-4b25-80b9-6120c7b5d40e")
+		(property "Reference" "C113"
+			(at 105.41 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X5R"
+			(at 114.3 51.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:C_0805_2012Metric_u"
+			(at 120.9802 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" "CA0174045"
+			(at 120.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
+			(at 120.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 120.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd71c8a3-0eeb-4caf-9c9b-191164351c0f")
+		)
+		(pin "2"
+			(uuid "68e373a7-3ba6-4ecb-b637-e3fa8421157d")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "C113")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ebd7ba9-a97b-4010-b99c-5f0ad7bc5a31")
+		(property "Reference" "C111"
+			(at 32.385 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X5R"
+			(at 41.91 33.655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:C_0805_2012Metric_u"
+			(at 35.8648 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" "CA0174045"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cd833ed-c097-44e3-bd70-7426a3bca252")
+		)
+		(pin "2"
+			(uuid "fa7f3740-bfde-4419-a4bf-cc04623188b2")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "C111")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55e82188-8071-4806-a66c-3a6890d062ad")
+		(property "Reference" "C114"
+			(at 131.064 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 6.3V X5R"
+			(at 140.208 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:C_0603_1608Metric_u"
+			(at 127.9652 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" "CA0000456"
+			(at 127 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
+			(at 127 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 127 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bbb4689-4a61-4e30-8a7a-b15e117005ff")
+		)
+		(pin "2"
+			(uuid "e3526764-0bb0-42e8-bfd9-4b0fe71320a6")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "C114")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "C127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 23.495 42.545 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75693483-68ef-43b2-a908-5c04dac615ec")
+		(property "Reference" "C110"
+			(at 24.765 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 6.3V X5R"
+			(at 19.685 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:C_0603_1608Metric_u"
+			(at 22.5298 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 23.495 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 23.495 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" "CA0000456"
+			(at 23.495 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
+			(at 23.495 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 23.495 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26d5eb70-2e8d-4c48-9161-534e3b9adace")
+		)
+		(pin "2"
+			(uuid "4fd8c6ef-9577-458b-9bcb-93aa1a5d21ec")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "C110")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "C123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.025 43.815 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76a99df4-b51a-42ff-97ca-630b88da7050")
+		(property "Reference" "R59"
+			(at 74.803 42.6466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R3}"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:R_0603_1608Metric_u"
+			(at 71.247 43.815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.025 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" ""
+			(at 73.025 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
+			(at 73.025 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "${R3LCSC}"
+			(at 73.025 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4212c8e3-2110-463a-a69b-8b39bf2eef16")
+		)
+		(pin "2"
+			(uuid "a48baecd-e8c9-4342-a5e8-32df44ba36de")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:LT1763CS8")
+		(at 79.375 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7999c1a1-840b-46a2-949e-86d2c2b76030")
+		(property "Reference" "IC1"
+			(at 98.425 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1763#PBF"
+			(at 98.425 55.9054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib_mods:LT1763CS8_PBF_SOIC127P599X175-8N"
+			(at 113.665 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf"
+			(at 113.665 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA, Low Noise, LDO Micropower Regulator, SO-8"
+			(at 113.665 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.752"
+			(at 113.665 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 113.665 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LT1763CS8-1.8#PBF"
+			(at 113.665 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HQ" "IC0135307"
+			(at 79.375 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 79.375 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C514413"
+			(at 79.375 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dac03367-466c-4455-ae48-a690f5e9ec13")
+		)
+		(pin "2"
+			(uuid "8a399604-08f3-48e5-85a6-8b59a9f7d488")
+		)
+		(pin "3"
+			(uuid "7e939838-7dc0-4aca-a702-5130100bc2b2")
+		)
+		(pin "4"
+			(uuid "1dfda667-5ceb-48a5-8259-df9a41e89597")
+		)
+		(pin "5"
+			(uuid "30e076ea-745f-4d5f-b372-dd7a23df1ed1")
+		)
+		(pin "6"
+			(uuid "ef454d48-b831-41cf-ba9a-3610ff4bcb27")
+		)
+		(pin "7"
+			(uuid "cfdae3b0-5ec7-43bd-a4bc-5832a050efee")
+		)
+		(pin "8"
+			(uuid "9203e9a6-a94f-4c11-a0ac-0b778a4b3ff7")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "IC1")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.025 51.435 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a86b0d51-fccd-40b1-9f32-5666e0f23d7c")
+		(property "Reference" "R60"
+			(at 74.803 50.2666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R1}"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib_mods:R_0603_1608Metric_u"
+			(at 71.247 51.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.025 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" ""
+			(at 73.025 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
+			(at 73.025 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "${R1LCSC}"
+			(at 73.025 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31e62f86-70e1-4b17-a2de-f5489d577843")
+		)
+		(pin "2"
+			(uuid "3e6dd940-884f-4d2a-b6aa-89646b599e63")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.265 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbff7980-056b-4ba1-a450-159855f63a1a")
+		(property "Reference" "TP5"
+			(at 89.7382 42.037 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+2V5_2"
+			(at 89.7382 44.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.345 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.345 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.265 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQ" ""
+			(at 88.265 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 88.265 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 88.265 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ad7486-35f9-4aeb-80bc-47d1ec704c1a")
+		)
+		(instances
+			(project "linbo3modulator"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/37cae5f0-e532-489b-b880-9d68ea3d0dd7"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/8a67b22f-18bf-40f5-a092-0376bf31732f/8cf18866-446d-4a38-b7f9-12e3b57b8e64"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,270 @@
+(footprint "DC-IN-TH_DC-005-20A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.88 -6.0675 0)
+		(layer "F.SilkS")
+		(uuid "bd9b9d9f-9c6d-4996-b193-a70fe79d0667")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DC-005-20A_C136744"
+		(at 31.1975 15.3225 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d52441ec-8be8-4b7b-afeb-96cf21f22771")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "lib_mods:DC-IN-TH_DC-005-20A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e859e0c2-e7e7-44e3-a0bb-e7eba83e097e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/DC-Connectors_DC-005-20A_C136744.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f941752a-a269-4b5f-ad7c-4bf358f8b0d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17d04327-3747-4642-9daa-3b23762309f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C136744"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96d8a192-1d1c-4db8-be74-c4359ef1e8fe")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10.51 -6.77)
+		(end 3.71 -6.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f65b09ef-9c64-47d5-a8ab-f92e415ed9bd")
+	)
+	(fp_line
+		(start -10.51 2.23)
+		(end -10.51 -6.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16a69f20-d733-4ab3-ab0f-6fd8fc898b4e")
+	)
+	(fp_line
+		(start -10.51 2.23)
+		(end -1.47 2.24)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92995495-8f28-413b-a581-9dcd5932baab")
+	)
+	(fp_line
+		(start -7.4 2.22)
+		(end -7.4 -6.78)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50bea820-9a38-4652-9d09-1dbc4ad7656a")
+	)
+	(fp_line
+		(start -7.32 -5.48)
+		(end 3.71 -5.47)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e3bdd86-ed71-4a42-bf9a-41fd1d72407c")
+	)
+	(fp_line
+		(start -7.32 0.92)
+		(end 3.7 0.92)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "483524c7-4f42-42f1-8f29-50be9567729f")
+	)
+	(fp_line
+		(start 2.47 2.22)
+		(end 3.7 2.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98de5a04-b27f-4fb6-ba72-595da66abd6d")
+	)
+	(fp_line
+		(start 3.7 -6.78)
+		(end 3.7 -4.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c12139a7-06f0-415c-877a-db40db3aac2b")
+	)
+	(fp_line
+		(start 3.7 -0.28)
+		(end 3.7 2.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbbc2131-9359-42e3-aae6-41d5e9fce137")
+	)
+	(fp_circle
+		(center 3.47 -4.01)
+		(end 3.72 -4.01)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "261ee6a6-1579-48a8-b219-8612e992176c")
+	)
+	(fp_circle
+		(center 3.7 -6.78)
+		(end 3.73 -6.78)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "32099abf-6e50-4563-b5f6-f02feef0503e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8a17cdeb-9449-4a26-b4dc-b2a37b3b11a0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 3 -2.32)
+		(size 1.5 3.8)
+		(drill oval 0.900024 3.100172)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c08949e4-e29f-4201-8209-2641717a59d7")
+	)
+	(pad "2" thru_hole oval
+		(at -3 -2.32 180)
+		(size 1.5 3.8)
+		(drill oval 0.900024 3.100172)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "06fb6881-7939-4f32-8293-2fe6de9e5c28")
+	)
+	(pad "3" thru_hole oval
+		(at 0.5 2.32 270)
+		(size 1.5 3.4)
+		(drill oval 0.900024 2.599792)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "6c9665a6-4c09-43bb-9039-3e64ffb0cdfc")
+	)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/DC-IN-TH_DC-005-20A.wrl"
+		(offset
+			(xyz -3.45 2.12 4.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
