@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "piezo_driver")(type "KiCad")(uri "${KIPRJMOD}/piezo_driver.kicad_sym")(options "")(descr ""))
-)
