@@ -2063,16 +2063,8 @@
 		(uuid "fcc9946b-96fd-408c-b01f-ec0f9a31cf8e")
 	)
 	(no_connect
-		(at 105.41 82.55)
-		(uuid "521e0069-7288-4312-a63b-929cbc76e399")
-	)
-	(no_connect
 		(at 163.83 54.61)
 		(uuid "64dbce2b-077b-4577-bbe4-33ac9cf3bb3b")
-	)
-	(no_connect
-		(at 105.41 85.09)
-		(uuid "d04f4b82-ddab-4dca-9edb-94f58edcd6bc")
 	)
 	(no_connect
 		(at 224.79 90.17)
@@ -2081,6 +2073,16 @@
 	(no_connect
 		(at 224.79 82.55)
 		(uuid "e394606a-2df9-406e-aa28-db5a6088828e")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011cf9ec-6e12-44b6-a600-3c52008cb7c0")
 	)
 	(wire
 		(pts
@@ -2284,6 +2286,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f36bf6-9dee-4bf0-a4e7-edeb65eb7812")
+	)
+	(wire
+		(pts
 			(xy 80.01 50.8) (xy 80.01 36.83)
 		)
 		(stroke
@@ -2311,6 +2323,16 @@
 			(type default)
 		)
 		(uuid "2e0c1519-285f-4b14-b242-359a6c720d2d")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342d8a5b-6135-4971-84f2-2e1f0be478b0")
 	)
 	(wire
 		(pts
@@ -2441,6 +2463,16 @@
 			(type default)
 		)
 		(uuid "5d7d4934-fb9f-44c5-b2cd-30cff5e01ff9")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dca39b1-0fb4-4498-b42e-c1456cd51e7d")
 	)
 	(wire
 		(pts
@@ -2634,16 +2666,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 82.55) (xy 105.41 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a88283-d2e7-4fff-8b8a-8166c9aa357e")
-	)
-	(wire
-		(pts
 			(xy 247.65 57.15) (xy 238.76 57.15)
 		)
 		(stroke
@@ -2664,16 +2686,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 105.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a360418c-645e-4919-aa6b-7369c7e584c2")
-	)
-	(wire
-		(pts
 			(xy 120.65 92.71) (xy 105.41 92.71)
 		)
 		(stroke
@@ -2681,6 +2693,26 @@
 			(type default)
 		)
 		(uuid "addf683e-196a-49ef-b319-11514ccfbab3")
+	)
+	(wire
+		(pts
+			(xy 62.23 81.28) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38be5fb-3135-4a4f-8ce5-d302460c88dd")
+	)
+	(wire
+		(pts
+			(xy 77.47 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baca2c5e-7c96-4727-87c8-76f59bd3aea6")
 	)
 	(wire
 		(pts
@@ -2784,6 +2816,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 82.55) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb6ced9-51ea-4cc9-ada3-53d676df9ec1")
+	)
+	(wire
+		(pts
 			(xy 180.34 49.53) (xy 194.31 49.53)
 		)
 		(stroke
@@ -2791,6 +2833,16 @@
 			(type default)
 		)
 		(uuid "dc361037-bc7d-4f6c-abe5-34c6d535a19d")
+	)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f1038a-b04c-4234-95c5-89c86924a07a")
 	)
 	(wire
 		(pts
@@ -3129,9 +3181,49 @@
 			)
 		)
 	)
+	(global_label "+3V3"
+		(shape input)
+		(at 62.23 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2e198a7-41ed-4d78-8549-cde8829b4212")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 66.04 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de10327b-2fca-4b2c-a1fe-28a64fd12620")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "SPREAD"
 		(shape input)
-		(at 80.01 88.9 180)
+		(at 73.66 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3232,7 +3324,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "1"
 			(at 172.72 113.665 0)
 			(effects
 				(font
@@ -3268,7 +3360,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21189"
+		(property "LCSC" "C22936"
 			(at 176.53 115.57 0)
 			(effects
 				(font
@@ -6794,7 +6886,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "1"
 			(at 163.83 113.665 0)
 			(effects
 				(font
@@ -6830,7 +6922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21189"
+		(property "LCSC" "C22936"
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -8016,6 +8108,277 @@
 				)
 				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/ded54c4f-4d43-4a4d-97ea-7f74584eecc8"
 					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "piezo_driver:R")
+		(at 73.66 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcbf6604-8d5f-40eb-aff9-b6ef591ee90b")
+		(property "Reference" "R38"
+			(at 73.66 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 74.93 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "piezo_driver:R_0603_1608Metric_u"
+			(at 73.66 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONNOTE" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MYPN" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGEREFERENCE" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGEVERSION" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "elitan" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26841a6b-075a-4967-9f6e-131aa49afc3d")
+		)
+		(pin "2"
+			(uuid "b5bfbd21-5813-4324-9653-774a62352495")
+		)
+		(instances
+			(project "piezo_driver"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/1231e08e-196f-4540-9f56-44896c1ca64b"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/ded54c4f-4d43-4a4d-97ea-7f74584eecc8"
+					(reference "R39")
 					(unit 1)
 				)
 			)

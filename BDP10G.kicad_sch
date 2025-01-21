@@ -5116,12 +5116,6 @@
 		(uuid "0995c84e-ba8e-49b6-875d-64108a58ca80")
 	)
 	(junction
-		(at 78.74 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "099c5c76-4d99-47b3-8e03-450523b565d2")
-	)
-	(junction
 		(at 218.44 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5182,6 +5176,12 @@
 		(uuid "523ca4d8-f467-402e-8e19-ecb790b8835d")
 	)
 	(junction
+		(at 77.47 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55d1924b-476e-4c28-9440-8bebd4483097")
+	)
+	(junction
 		(at 194.945 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5222,6 +5222,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bbd1803-d150-4fbf-a671-ae5dbe6ffb6f")
+	)
+	(junction
+		(at 77.47 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92fbb074-886c-4f5b-b62f-ba957d8c454f")
 	)
 	(junction
 		(at 64.77 35.56)
@@ -5330,6 +5336,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed3682f2-f647-4c92-87a7-7277c2df3007")
+	)
+	(junction
+		(at 66.04 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f095c1f0-2043-4a1b-bc3d-97ee224f9e7a")
 	)
 	(junction
 		(at 215.265 25.4)
@@ -5709,6 +5721,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 128.27) (xy 77.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176d6477-4cc2-4d38-9016-4b3a914275bd")
+	)
+	(wire
+		(pts
 			(xy 281.94 25.4) (xy 274.32 25.4)
 		)
 		(stroke
@@ -5789,6 +5811,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 130.81) (xy 64.77 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2066301c-cbf3-42e7-9d02-2ce0d12555c0")
+	)
+	(wire
+		(pts
 			(xy 124.46 36.83) (xy 124.46 38.1)
 		)
 		(stroke
@@ -5849,6 +5881,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 119.38) (xy 86.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2969eda5-5ad9-4153-8599-53c93ead5470")
+	)
+	(wire
+		(pts
 			(xy 232.41 58.42) (xy 237.49 58.42)
 		)
 		(stroke
@@ -5906,6 +5948,16 @@
 			(type default)
 		)
 		(uuid "2ef514b5-5db2-4fc7-b048-809d911dfb7c")
+	)
+	(wire
+		(pts
+			(xy 72.39 130.81) (xy 72.39 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f89c7e9-a326-4e35-baba-c0fab3c478e0")
 	)
 	(wire
 		(pts
@@ -6056,16 +6108,6 @@
 			(type default)
 		)
 		(uuid "3e2a1408-a11c-40bc-a597-2d3d0c184a82")
-	)
-	(wire
-		(pts
-			(xy 78.74 119.38) (xy 78.74 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2f3518-f589-4e49-96bf-9b0a393e93b3")
 	)
 	(wire
 		(pts
@@ -6226,6 +6268,16 @@
 			(type default)
 		)
 		(uuid "50d2cbc4-add4-49dd-925c-a6f43b7c8f87")
+	)
+	(wire
+		(pts
+			(xy 64.77 121.92) (xy 66.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51627719-a144-4bec-acb9-39901395a125")
 	)
 	(wire
 		(pts
@@ -6699,6 +6751,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 113.03) (xy 68.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4262cf-36b2-489a-8d1b-4c44960803dd")
+	)
+	(wire
+		(pts
 			(xy 20.32 134.62) (xy 20.32 140.97)
 		)
 		(stroke
@@ -6969,7 +7031,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 78.74 119.38)
+			(xy 76.2 119.38) (xy 77.47 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7109,16 +7171,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 78.74 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0bafcd-57a0-4d9c-9da0-8e7a65c309a5")
-	)
-	(wire
-		(pts
 			(xy 215.265 49.53) (xy 224.79 49.53)
 		)
 		(stroke
@@ -7149,7 +7201,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 113.03) (xy 68.58 113.03)
+			(xy 64.77 113.03) (xy 66.04 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7499,6 +7551,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 119.38) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2450a16-c5e8-42a8-8047-842316b41905")
+	)
+	(wire
+		(pts
 			(xy 218.44 30.48) (xy 224.79 30.48)
 		)
 		(stroke
@@ -7539,6 +7601,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 121.92) (xy 66.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e749f41f-756d-41ad-adfc-84c229d667b5")
+	)
+	(wire
+		(pts
 			(xy 64.77 53.34) (xy 48.26 53.34)
 		)
 		(stroke
@@ -7556,6 +7628,16 @@
 			(type default)
 		)
 		(uuid "e809b577-87da-4b51-b000-872044234df7")
+	)
+	(wire
+		(pts
+			(xy 64.77 130.81) (xy 64.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a50131-b7bb-4c12-a219-3b18c752c160")
 	)
 	(wire
 		(pts
@@ -7656,6 +7738,16 @@
 			(type default)
 		)
 		(uuid "f08ec22e-a035-4923-bcdd-cf5ff35be4b7")
+	)
+	(wire
+		(pts
+			(xy 72.39 128.27) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c95ca3-5c90-4983-b54a-986bd109f448")
 	)
 	(wire
 		(pts
@@ -9981,6 +10073,273 @@
 			(project "piezo_driver"
 				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/143a2c48-eb70-490b-a301-493af45da4f6"
 					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "piezo_driver:C")
+		(at 64.77 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08b6628d-69e1-40a6-9a77-b186ddbf6058")
+		(property "Reference" "C100"
+			(at 67.691 124.5616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 67.691 126.873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "piezo_driver:C_1206_3216Metric_u"
+			(at 65.7352 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONNOTE" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MYPN" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGEREFERENCE" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGEVERSION" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVISION" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "elitan" ""
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6f8c823-a760-48ec-aeb9-792f4ec475ee")
+		)
+		(pin "2"
+			(uuid "1ea0a57e-54e5-4cb7-ab74-c82408de4446")
+		)
+		(instances
+			(project "piezo_driver"
+				(path "/be430412-f715-40d9-a4fd-524a77e7e7f1/143a2c48-eb70-490b-a301-493af45da4f6"
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -16857,7 +17216,7 @@
 	)
 	(symbol
 		(lib_id "piezo_driver:GND")
-		(at 78.74 124.46 0)
+		(at 77.47 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16866,7 +17225,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5765ecf-5b27-4a91-b122-29bdf4118d3e")
 		(property "Reference" "#PWR0142"
-			(at 78.74 130.81 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16875,7 +17234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 129.54 0)
+			(at 77.47 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +17242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 124.46 0)
+			(at 77.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,7 +17251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 124.46 0)
+			(at 77.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16901,7 +17260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 124.46 0)
+			(at 77.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

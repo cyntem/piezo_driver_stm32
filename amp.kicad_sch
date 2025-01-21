@@ -6475,7 +6475,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b8e45949-cb07-4481-9c26-d9b73e6a1b0f")
 		(property "Reference" "C22"
 			(at 46.101 105.5116 0)
@@ -7035,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Value" "47pF 200V"
+		(property "Value" "1pF 50V"
 			(at 76.454 71.882 90)
 			(effects
 				(font
@@ -7070,7 +7070,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5186754"
+		(property "LCSC" "C1786"
 			(at 73.66 76.2 0)
 			(effects
 				(font
@@ -7571,7 +7571,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d3652eda-4226-4d10-8757-61a70b625e51")
 		(property "Reference" "C24"
 			(at 72.136 41.91 90)
